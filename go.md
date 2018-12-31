@@ -20,11 +20,25 @@ godoc fmt Printf
 - [seelog](https://github.com/cihub/seelog)
 - [logrus](https://github.com/sirupsen/logrus)
 
+### Serialization
+- [json-iterator](https://github.com/json-iterator/go)
+- [thrift-iterator](https://github.com/thrift-iterator/go)
+
 ### Crypto
 - [scrypt](https://godoc.org/golang.org/x/crypto/scrypt)
 
+### Database Driver
+- [SQLDrivers](https://github.com/golang/go/wiki/SQLDrivers)
+##### MySQL
+- [https://github.com/go-sql-driver/mysql](https://github.com/go-sql-driver/mysql) 支持database/sql，全部采用go写
+- [https://github.com/ziutek/mymysql](https://github.com/ziutek/mymysql) 支持database/sql，也支持自定义的接口，全部采用go写
+- [https://github.com/Philio/GoMySQL](https://github.com/Philio/GoMySQL) 不支持database/sql，自定义接口，全部采用go写
+##### SQLite
+- [https://github.com/mattn/go-sqlite3](https://github.com/mattn/go-sqlite3)
+
 ### Router
 - [Radix tree](https://en.wikipedia.org/wiki/Radix_tree)
+- [httprouter](https://github.com/julienschmidt/httprouter)
 
 ### Web Framework
 - [Beego](https://github.com/astaxie/beego)
