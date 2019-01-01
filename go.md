@@ -1,24 +1,21 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Golang](#Golang)
-	- [godoc](#godoc)
-	- [Introduction](#introduction)
-	- [IDE](#ide)
-		- [SublimeText](#sublimetext)
-	- [Package Manager](#package-manager)
-	- [Logger](#logger)
-	- [Serialization](#serialization)
-	- [Crypto](#crypto)
-	- [Database Driver](#database-driver)
-		- [MySQL](#mysql)
-		- [SQLite](#sqlite)
-	- [ORM](#orm)
-	- [Router](#router)
-	- [Web Framework](#web-framework)
+- [godoc](#godoc)
+- [Introduction](#introduction)
+- [IDE](#ide)
+    - [SublimeText](#sublimetext)
+- [Package Manager](#package-manager)
+- [Logger](#logger)
+- [Serialization](#serialization)
+- [Crypto](#crypto)
+- [Database Driver](#database-driver)
+    - [MySQL](#mysql)
+    - [SQLite](#sqlite)
+- [ORM](#orm)
+- [Router](#router)
+- [Web Framework](#web-framework)
 
 <!-- /TOC -->
-
-# Golang
 
 ### godoc
 ```shell
@@ -29,6 +26,8 @@ godoc fmt Printf
 ```
 
 ### Introduction
+- [Golang](https://golang.org)
+- [go-zh](https://go-zh.org)
 - [astaxie/build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md)
 - [Awesome Go](https://awesome-go.com/)
 
