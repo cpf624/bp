@@ -1,7 +1,7 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [godoc](#godoc)
 - [Introduction](#introduction)
+- [godoc](#godoc)
 - [IDE](#ide)
     - [SublimeText](#sublimetext)
 - [Package Manager](#package-manager)
@@ -17,6 +17,10 @@
 
 <!-- /TOC -->
 
+### Introduction
+- [astaxie/build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md)
+- [Awesome Go](https://awesome-go.com/)
+
 ### godoc
 ```shell
 # http://localhost:8080
@@ -24,12 +28,9 @@ godoc -http=:6060
 
 godoc fmt Printf
 ```
-
-### Introduction
-- [Golang](https://golang.org)
-- [go-zh](https://go-zh.org)
-- [astaxie/build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md)
-- [Awesome Go](https://awesome-go.com/)
+- [Golang](https://golang.org/)
+- [go-zh](https://go-zh.org/)
+- [godoc](https://godoc.org/)
 
 ### IDE
 ##### SublimeText
