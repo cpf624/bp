@@ -1,25 +1,24 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [[Golang](https://golang.org)](#golanghttpsgolangorg)
-		- [godoc](#godoc)
-- [http://localhost:8080](#httplocalhost8080)
-		- [Introduction](#introduction)
-		- [IDE](#ide)
-				- [SublimeText](#sublimetext)
-		- [Package Manager](#package-manager)
-		- [Logger](#logger)
-		- [Serialization](#serialization)
-		- [Crypto](#crypto)
-		- [Database Driver](#database-driver)
-				- [MySQL](#mysql)
-				- [SQLite](#sqlite)
-		- [ORM](#orm)
-		- [Router](#router)
-		- [Web Framework](#web-framework)
+- [Golang](#Golang)
+	- [godoc](#godoc)
+	- [Introduction](#introduction)
+	- [IDE](#ide)
+		- [SublimeText](#sublimetext)
+	- [Package Manager](#package-manager)
+	- [Logger](#logger)
+	- [Serialization](#serialization)
+	- [Crypto](#crypto)
+	- [Database Driver](#database-driver)
+		- [MySQL](#mysql)
+		- [SQLite](#sqlite)
+	- [ORM](#orm)
+	- [Router](#router)
+	- [Web Framework](#web-framework)
 
 <!-- /TOC -->
 
-# [Golang](https://golang.org)
+# Golang
 
 ### godoc
 ```shell
