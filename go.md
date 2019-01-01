@@ -10,6 +10,7 @@ godoc fmt Printf
 
 ### Introduction
 - [astaxie/build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md)
+- [Awesome Go](https://awesome-go.com/)
 
 ### IDE
 ##### SublimeText
@@ -18,7 +19,7 @@ godoc fmt Printf
 cd ~/Library/Application Support/Sublime Text 3/Packages
 git clone https://margo.sh/GoSublime
 ```
--GoSublime Settings
+- GoSublime Settings
 ```json
 {
     "env": {
@@ -69,6 +70,10 @@ git clone https://margo.sh/GoSublime
 - [https://github.com/Philio/GoMySQL](https://github.com/Philio/GoMySQL) 不支持database/sql，自定义接口，全部采用go写
 ##### SQLite
 - [https://github.com/mattn/go-sqlite3](https://github.com/mattn/go-sqlite3)
+
+### ORM
+- [xorm](https://github.com/go-xorm/xorm)
+- [gorm](https://github.com/jinzhu/gorm)
 
 ### Router
 - [Radix tree](https://en.wikipedia.org/wiki/Radix_tree)
