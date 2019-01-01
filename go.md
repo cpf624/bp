@@ -11,6 +11,39 @@ godoc fmt Printf
 ### Introduction
 - [astaxie/build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md)
 
+### IDE
+##### SublimeText
+- install GoSublime
+```shell
+cd ~/Library/Application Support/Sublime Text 3/Packages
+git clone https://margo.sh/GoSublime
+```
+-GoSublime Settings
+```json
+{
+    "env": {
+        "GOPATH": "/home/arsham/Projects/Go:/usr/bin/go",
+        "PATH": "/home/arsham/Projects/Go/bin:$PATH:/usr/bin",
+    },
+    "comp_lint_enabled": true,
+    "ipc_timeout": 2,
+    "fmt_cmd": ["goimports", "-srcdir", "$_dir"],
+    "on_save": [
+        {"cmd": "gs_comp_lint"},
+    ],
+    "comp_lint_commands": [
+        {"cmd": ["go", "build", "-i"]},
+        {"cmd": ["golint $_fn"], "shell": true},
+        {"cmd": ["go", "vet"]},
+        {"cmd": ["goconst $_dir"], "shell": true},
+        {"cmd": ["usedexports $_dir"], "shell": true},
+        {"cmd": ["ineffassign $_fn"], "shell": true},
+    ],
+}
+```
+- [Streamline Your Sublime Text + Go Workflow](https://www.alexedwards.net/blog/streamline-your-sublime-text-and-go-workflow)
+- [Supercharge your sublime text for #golang development](https://medium.com/@arshamshirvani/super-charge-your-sublime-text-for-golang-development-3239d9c376bb)
+
 ### Package Manager
 - [gopm](https://github.com/gpmgo/gopm)
 - [dep](https://github.com/golang/dep)
@@ -28,6 +61,7 @@ godoc fmt Printf
 - [scrypt](https://godoc.org/golang.org/x/crypto/scrypt)
 
 ### Database Driver
+- [Go database/sql tutorial](http://go-database-sql.org)
 - [SQLDrivers](https://github.com/golang/go/wiki/SQLDrivers)
 ##### MySQL
 - [https://github.com/go-sql-driver/mysql](https://github.com/go-sql-driver/mysql) 支持database/sql，全部采用go写
