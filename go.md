@@ -11,6 +11,7 @@
 - [Database Driver](#database-driver)
     - [MySQL](#mysql)
     - [SQLite](#sqlite)
+    - [Redis](#redis)
 - [ORM](#orm)
 - [Router](#router)
 - [Web Framework](#web-framework)
@@ -19,7 +20,7 @@
 
 ### Introduction
 - [astaxie/build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md)
-- [Awesome Go](https://awesome-go.com/)
+- [Awesome Go](https://awesome-go.com)
 
 ### godoc
 ```shell
@@ -28,9 +29,9 @@ godoc -http=:6060
 
 godoc fmt Printf
 ```
-- [Golang](https://golang.org/)
-- [go-zh](https://go-zh.org/)
-- [godoc](https://godoc.org/)
+- [Golang](https://golang.org)
+- [go-zh](https://go-zh.org)
+- [godoc](https://godoc.org)
 
 ### IDE
 ##### SublimeText
@@ -90,6 +91,11 @@ git clone https://margo.sh/GoSublime
 - [https://github.com/Philio/GoMySQL](https://github.com/Philio/GoMySQL) 不支持database/sql，自定义接口，全部采用go写
 ##### SQLite
 - [https://github.com/mattn/go-sqlite3](https://github.com/mattn/go-sqlite3)
+##### Redis
+- [https://github.com/go-redis/redis](https://github.com/go-redis/redis)
+- [https://github.com/hoisie/redis](https://github.com/hoisie/redis)
+- [https://github.com/alphazero/Go-Redis](https://github.com/alphazero/Go-Redis)
+- [https://github.com/insmo/godis](https://github.com/insmo/godis)
 
 ### ORM
 - [xorm](https://github.com/go-xorm/xorm)
@@ -102,5 +108,5 @@ git clone https://margo.sh/GoSublime
 ### Web Framework
 - [Beego](https://github.com/astaxie/beego)
 - [Gin](https://github.com/gin-gonic/gin)
-- [Revel](https://revel.github.io/)
-- [Echo](https://echo.labstack.com/)
+- [Revel](https://revel.github.io)
+- [Echo](https://echo.labstack.com)
